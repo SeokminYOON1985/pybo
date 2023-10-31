@@ -6,7 +6,7 @@ STATICFILES_DIRS = []
 DEBUG = False
 
 DATABASES = {
-    'default' : {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pybo',
         'USER': 'dbmasteruser',
@@ -14,5 +14,4 @@ DATABASES = {
         'HOST': 'ls-fd0598da9bec1fbec48f244e35051fe129c9d6b2.ch9j4fdaqlmn.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
-
 }
